@@ -1,0 +1,29 @@
+#showsketch{
+float:right    
+}
+body{
+ background-color: yellowgreen;   
+}
+h1{
+ background-color: aliceblue;   
+ color: blue;   
+}
+#showsketch{
+ padding-top: 10px;   
+}
+p{
+  padding-top: 10px;
+  font-size: 25px;  
+}
+canvas{
+    border: 5px solid rgb(231, 231, 73);
+    margin-top: 50px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10%;
+}
+@keyframes example {
+ from{box-shadow: 1px 1px 30px grey} 
+ to{box-shadow: 1px 1px 30px red}   
+}
